@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Blueprints</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="/webjars/jquery/3.1.0/jquery.min.js"></script>
+    <script src="/webjars/bootstrap/4.1.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet"
+      href="/webjars/bootstrap/4.1.2/css/bootstrap.min.css" />
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+h1,a,input,button{
+	font-family: 'Dancing Script', cursive;
+}
+table, th{
+  border: 1px solid black;
+}
+</style>
+<h1><font size=10>Blueprints</font></h1>
+<body>
+<a><font size=6>Author: <input type="text" name="author" value="Write an author here"><button type="button" id="getBluePrints">Get Blueprints</button></font></a>
+<table id="tabla" style="width:45%" >
+  <tr>
+    <th>Bluepritn name</th>
+    <th>Number of points</th>
+    <th>Action</th>
+  </tr>
+</table>
+</body>
+
+</html>

@@ -36,24 +36,6 @@ var apimock = (function () {
             ]
         }
     ]
-
-    mockdata['LexLuthor'] = [
-        {
-            author: 'LexLuthor',
-            name: 'kryptonite',
-            points: [
-                {
-                    x: 60,
-                    y: 65
-                },
-                {
-                    x: 70,
-                    y: 75
-                }
-            ]
-        }
-    ]
-    
     mockdata['Jose'] = [
 	      {
 	          author: 'Jose',
@@ -66,6 +48,20 @@ var apimock = (function () {
 	              {
 	                  x: 30,
 	                  y: 35
+	              }
+	          ]
+	      },
+		  {
+	          author: 'Jose',
+	          name: 'another',
+	          points: [
+	              {
+	                  x: 55,
+	                  y: 10
+	              },
+	              {
+	                  x: 37,
+	                  y: 25
 	              }
 	          ]
 	      }
@@ -87,6 +83,16 @@ var apimock = (function () {
 	              {
 	                  x: 40,
 	                  y: 20
+	              }
+	          ]
+	      },
+		  {
+	          author: 'Daniel',
+	          name: 'anotherBuilding',
+	          points: [
+	              {
+	                  x: 5,
+	                  y: 10
 	              }
 	          ]
 	      }

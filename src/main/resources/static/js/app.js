@@ -1,5 +1,5 @@
-//var mock = apiclient;
-var mock = apimock;
+var mock = apiclient;
+//var mock = apimock;
 var app = (function(){
 
 	var mapeo = function(lista){
